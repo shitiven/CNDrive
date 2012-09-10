@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'CNDrive' target in the 'CNDrive' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define OSS_HOST @"http://storage.aliyun.com"
+#define OSS_ACCESS_KEY_ID @"jvthhsujgelmkxmd6crtrsjh"
+#define OSS_ACCESS_KEY_SECRET @"VZqLXUL2PBlAqBbmkYdojtClGw4="
